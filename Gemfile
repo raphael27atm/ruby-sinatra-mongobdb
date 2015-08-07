@@ -11,5 +11,5 @@ gem 'sinatra-partial'
 
 group :test do
   gem 'minitest', require: "minitest/autorun"
-  #gem 'rake-test', require: "rake/test"
+  gem "rack-test", require: "rack/test"
 end

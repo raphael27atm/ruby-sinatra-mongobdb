@@ -1,10 +1,12 @@
+require "models/issue"
+
 class App < Sinatra::Base
+
   get "/" do
-    "Hello"
+   redirect "/issues"
   end
 
-  get "/issues/"do
-    @issues = Issues.all
-    @issues
+  get "/issues"do
+    
   end
 end
